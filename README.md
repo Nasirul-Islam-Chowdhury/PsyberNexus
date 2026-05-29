@@ -2,6 +2,8 @@
 
 PsyberNexus is an AI-native multimodal mental health intelligence mesh that detects, maps, and supports student well-being across educational ecosystems. Built for Bangladesh's high-stigma, resource-constrained schools, it is globally adaptable with non-intrusive edge-first privacy guarantees.
 
+🌐 **Live App:** [https://psybernexus-163233355591.asia-southeast1.run.app](https://psybernexus-163233355591.asia-southeast1.run.app)
+
 ***
 
 ## 🌟 Core Highlights & Architectural Strengths
