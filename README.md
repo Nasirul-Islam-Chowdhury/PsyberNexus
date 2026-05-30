@@ -4,11 +4,11 @@
   <img src="public/images/mental-health.jpeg" alt="PsyberNexus — Student Mental Health Intelligence Mesh" width="100%" />
 </p>
 
-> **Multimodal Student Mental Health Intelligence Mesh** — *মাল্টিমোডাল মানসিক স্বাস্থ্য ইন্টেলিজেন্স মেশ*
+> **Multimodal Student Mental Health Intelligence Mesh**
 
 PsyberNexus is an **AI-native, multimodal mental health intelligence platform** built specifically for student ecosystems in Bangladesh's high-stigma, resource-constrained educational environments. It uses a **7-layer AI stack** to non-intrusively monitor student emotional and psychological states through facial expressions, voice acoustics, text sentiment, and academic engagement — then routes actionable alerts and culturally-adapted interventions to school counselors in real time.
 
-> **বাংলা:** PsyberNexus হলো একটি AI-চালিত মাল্টিমোডাল মানসিক স্বাস্থ্য ইন্টেলিজেন্স প্ল্যাটফর্ম, যা বিশেষভাবে বাংলাদেশের শিক্ষাপ্রতিষ্ঠানের শিক্ষার্থীদের জন্য তৈরি করা হয়েছে। এটি ৭-স্তরের AI প্রযুক্তি ব্যবহার করে শিক্ষার্থীদের মুখভঙ্গি, কণ্ঠস্বর, লেখার অনুভূতি এবং একাডেমিক কার্যক্রমের মাধ্যমে মানসিক অবস্থা পর্যবেক্ষণ করে — এবং কাউন্সেলরদের কাছে রিয়েল-টাইমে সতর্কতা পাঠায়।
+🎥 **Video Overview:** [Watch on YouTube](https://www.youtube.com/watch?v=8cDdmFqNP6Q)
 
 🌐 **Live App:** [https://psybernexus-163233355591.asia-southeast1.run.app](https://psybernexus-163233355591.asia-southeast1.run.app)
 
@@ -34,6 +34,14 @@ What makes PsyberNexus unique is its **Cultural RAG** system, which grounds resp
 PsyberNexus Core is a fully functional **end-to-end MVP** — a 7-layer AI pipeline, React frontend, Supabase edge functions, and Gemini-powered intervention systems. It is not just a prototype; it is a deployable HealthTech system for real-world school environments.
 
 > **Because under SDG 3.4, mental health is not optional — and no student should suffer in silence when the tools to help already exist.**
+
+---
+
+## 🎯 Our Mission
+
+To transform educational institutions into **proactive mental wellness ecosystems** by using AI-native multimodal intelligence that detects, understands, and supports student mental health *before crises occur*.
+
+PsyberNexus Core aims to eliminate the silence created by stigma, resource scarcity, and the lack of early intervention systems — especially in regions like Bangladesh — by enabling continuous, privacy-preserving, and culturally aware mental health intelligence. We strive to make mental health support **accessible, invisible in stigma, and intelligent in action**, ensuring that no student's suffering goes unnoticed.
 
 ---
 
@@ -153,12 +161,12 @@ A mobile-first Progressive Web App for students — privacy-first design, biling
 
 | # | Component | Function |
 |---|---|---|
-| 14 | **Language Toggle** | Switches the entire PWA between বাংলা and English in real-time |
+| 14 | **Language Toggle** | Switches the entire PWA between Bangla and English in real-time |
 | 15 | **Privacy Alert Banner** | Explains edge-encryption: raw audio/video stays on device; only embeddings sync |
 | 16 | **Voice Reflection Journal** | Microphone recording with animated waveform (Wav2Vec2 16kHz) → AI stress analysis |
 | 17 | **Student Screening Button** | "Run Screening" triggers `/api/screen` → full multimodal screening with sentiment + distortion results |
 | 18 | **Writing Reflection Journal** | Free-form text (Bangla/English) analyzed by Bangla-BERT NLP |
-| 19 | **Wellness Swipe Cards** | 3 culturally-adapted coping cards: Breathing Exercise (৪-৭-৮ শ্বাস), Grounding (৫ ইন্দ্রিয়), Dua/Affirmation |
+| 19 | **Wellness Swipe Cards** | 3 culturally-adapted coping cards: Breathing Exercise (4-7-8), Grounding (5 senses), Dua/Affirmation |
 | 20 | **Crisis Trigger Panel** | "Emergency Tip" button (notifies on-duty counselor) + "Helpline 999" direct dial |
 
 ---
@@ -307,7 +315,7 @@ python3 tests/integration/flow_test.py
 | **Pritom Paul** | System Architect *(Team Lead)* | Metropolitan University, Sylhet | [in/pritompaul24](https://www.linkedin.com/in/pritompaul24/) |
 | **Jarin Alam Priti** | AI/ML Specialist | Metropolitan University, Sylhet | [in/jarin-alam](https://www.linkedin.com/in/jarin-alam/) |
 | **Shrimoti Pritela Rani Das** | Backend Developer | Metropolitan University, Sylhet | [in/shrimoti-pritela-rani-das](https://www.linkedin.com/in/shrimoti-pritela-rani-das-6791a2378/) |
-| **Md Nasirul Islam Chowdhury** | Full Stack Web Developer | Metropolitan University, Sylhet | — |
+| **Md Nasirul Islam Chowdhury** | Full Stack Web Developer | Metropolitan University, Sylhet | [in/nasir252](https://www.linkedin.com/in/nasir252/) |
 | **Ankur Paul** | Graphics Designer | Leading University, Sylhet | [in/ankur-paul-23740a410](https://www.linkedin.com/in/ankur-paul-23740a410/) |
 
 ---
