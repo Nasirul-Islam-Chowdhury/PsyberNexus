@@ -14,7 +14,34 @@ PsyberNexus is an **AI-native, multimodal mental health intelligence platform** 
 
 ---
 
+## 📖 Overview
+
+<p align="center">
+  <img src="public/images/mental-problems.jpeg" alt="Student mental health crisis in Bangladesh's classrooms" width="100%" />
+</p>
+
+Mental health in Bangladesh's schools is in crisis, yet it remains almost completely invisible. Students suffer silently, stigma prevents them from speaking up, and counselors — where they even exist — have no tools to identify who needs help before it becomes critical.
+
+**PsyberNexus** is an AI-native, multimodal mental health intelligence mesh built for educational ecosystems in Bangladesh, aligned with **UN Sustainable Development Goal 3.4** and built for the **Healthcare (HealthTech) challenge at AI Infinity BuildFest 2026**. It operates across two interconnected user layers:
+
+- **For counselors** — a real-time clinical intelligence dashboard that passively analyzes four multimodal signals (facial expression via **MTCNN**, voice stress via **Wav2Vec2**, text sentiment via a fine-tuned **Bangla-BERT**, and academic engagement from **LMS** data) and fuses them with a **Multimodal Transformer** into a single, explainable mental health risk score per student.
+- **For students** — a private, calming mobile wellness studio in **Bangla & English** for voice-journaling, written reflection, and culturally adapted coping tools (breathing exercises, grounding techniques, Islamic resilience affirmations), plus one-tap access to a counselor or the national emergency helpline **999**.
+
+What makes PsyberNexus unique is its **Cultural RAG** system, which grounds responses in Bangla CBT frameworks, PHQ-9 and GAD-7 adapted protocols, and South Asian collectivist psychological context — so guidance is culturally and spiritually relevant, never generic Western therapy advice. A **Neo4j graph-based PageRank** system maps student peer networks to identify influential individuals and optimize early intervention pathways.
+
+**Privacy is the foundation, not a feature:** raw video and audio never leave the device, only anonymized embeddings are transmitted, the system performs **risk stratification only (no diagnosis)**, and every decision is supervised by a human counselor — a strict human-in-the-loop framework aligned with WHO-style responsible mental health deployment.
+
+PsyberNexus Core is a fully functional **end-to-end MVP** — a 7-layer AI pipeline, React frontend, Supabase edge functions, and Gemini-powered intervention systems. It is not just a prototype; it is a deployable HealthTech system for real-world school environments.
+
+> **Because under SDG 3.4, mental health is not optional — and no student should suffer in silence when the tools to help already exist.**
+
+---
+
 ## 🌍 Aligned with UN Sustainable Development Goal 3
+
+<p align="center">
+  <img src="public/images/sdg.jpeg" alt="UN SDG 3 — Good Health and Well-Being · Target SDG 3.4: Promote Mental Health & Well-Being" width="100%" />
+</p>
 
 PsyberNexus is built to advance the **United Nations Sustainable Development Goal 3 — Good Health and Well-Being.**
 
@@ -23,6 +50,10 @@ PsyberNexus is built to advance the **United Nations Sustainable Development Goa
 > *SDG Target 3.4: "By 2030, reduce by one third premature mortality from non-communicable diseases through prevention and treatment, and **promote mental health and well-being**."*
 
 In Bangladesh, mental health among students is in crisis — yet it remains almost completely invisible. Students suffer silently, stigma prevents them from speaking up, and counselors (where they even exist) have no tools to find who needs help before it is too late.
+
+<p align="center">
+  <img src="public/images/problems.jpeg" alt="The invisible crisis: stigma, silence, and the data gap in student mental health" width="100%" />
+</p>
 
 PsyberNexus directly addresses **SDG 3.4** by:
 
@@ -254,4 +285,32 @@ python3 tests/integration/flow_test.py
 
 ---
 
+## 👥 Team Minus One
+
+<p align="center">
+  <img src="public/images/teams.jpeg" alt="Team Minus One — the people behind PsyberNexus" width="100%" />
+</p>
+
+<p align="center">
+  <strong>We are <em>Team Minus One</em></strong> — a cross-border collective of engineers, researchers, and designers building AI for human well-being.<br/>
+  From the classrooms of Sylhet to the labs of Alabama, we came together with one belief:<br/>
+  <em>no student should suffer in silence when the tools to help already exist.</em>
+</p>
+
+<p align="center">
+  🧠 <strong>HealthTech · AI Infinity BuildFest 2026</strong> · 🌍 <strong>UN SDG 3.4</strong>
+</p>
+
+| Member | Designation | Institution | LinkedIn |
+|---|---|---|---|
+| **Akhlak Uz Zaman** | Ph.D. Candidate, Computer Science | University of Alabama, USA | [in/akhlakashik](https://www.linkedin.com/in/akhlakashik/) |
+| **Pritom Paul** | System Architect *(Team Lead)* | Metropolitan University, Sylhet | [in/pritompaul24](https://www.linkedin.com/in/pritompaul24/) |
+| **Jarin Alam Priti** | AI/ML Specialist | Metropolitan University, Sylhet | [in/jarin-alam](https://www.linkedin.com/in/jarin-alam/) |
+| **Shrimoti Pritela Rani Das** | Backend Developer | Metropolitan University, Sylhet | [in/shrimoti-pritela-rani-das](https://www.linkedin.com/in/shrimoti-pritela-rani-das-6791a2378/) |
+| **Md Nasirul Islam Chowdhury** | Full Stack Web Developer | Metropolitan University, Sylhet | — |
+| **Ankur Paul** | Graphics Designer | Leading University, Sylhet | [in/ankur-paul-23740a410](https://www.linkedin.com/in/ankur-paul-23740a410/) |
+
+---
+
 <p align="center"><em>PsyberNexus — Supporting UN SDG 3.4: Promote Mental Health and Well-Being 🌍</em></p>
+<p align="center"><sub>Built with ❤️ by <strong>Team Minus One</strong> · AI Infinity BuildFest 2026</sub></p>
